@@ -34,7 +34,8 @@ int main()
 }
 
  while(input!='q' && input!='Q');
-
+{
+}
 return 0;
 }
 

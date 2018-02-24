@@ -18,10 +18,10 @@ int main()
   cin>>input;
   if(input =='A' || input == 'a')
   {
-     cout<<"what is the item?\n";
+     cout<<"What is the item?\n";
      cin>>input2;
   }
-  if (numItems < 5)
+  if (numItems<5)
   {
      list[numItems]=input2;
      numItems++;

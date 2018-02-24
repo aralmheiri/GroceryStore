@@ -20,22 +20,21 @@ int main()
   {
      cout<<"What is the item?\n";
      cin>>input2;
-  }
+  
   if (numItems<5)
   {
      list[numItems]=input2;
      numItems++;
-  }
-  else 
+  
+ }else 
   {
      cout<<"You'll need a bigger list!\n";
   }
 
 }
+}while(input!='q' && input!='Q');
 
- while(input!='q' && input!='Q');
-{
-}
+
 return 0;
 }
 

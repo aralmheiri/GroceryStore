@@ -25,24 +25,23 @@ int main()
   {
      list[numItems]=input2;
      numItems++;
- 
+
  }else 
   {
      cout<<"You'll need a bigger list!\n";
   }
 
 }
-}while(input!='q' && input!='Q');
+}while(input!='q' && input!='Q'); cout<<"\n==ITEMS TO BUY==\n";
 
-cout<<"\n==ITEMS TO BUY==\n";
- for (int numItems=0; numItems<5; numItems++)
- { cout<< numItems+1;
- if (list[numItems]!="")
+for (int numItems=0; numItems<5; numItems++)
+ { cout<<endl<<numItems+1<< " ";
+   if (list[numItems]!="")
   {
-  cout<<" "<<list[numItems]<<endl;
+   cout<<list[numItems];
   }
  } 
-
+  cout<<endl;
 
 return 0;
 }

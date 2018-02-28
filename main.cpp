@@ -34,10 +34,11 @@ int main()
 }
 }while(input!='q' && input!='Q'); 
 
-cout<<"\n==ITEMS TO BUY==\n";
-
-for (int numItems=0; numItems<5; numItems++)
- { cout<<endl<<numItems+1<< " ";
+ cout<<"\n==ITEMS TO BUY==\n";
+ for(int numItems=0; numItems<5; numItems++)
+ { 
+   cout<<endl<<numItems+1<< " ";
+   
    if (list[numItems]!="")
   {
    cout<<list[numItems];

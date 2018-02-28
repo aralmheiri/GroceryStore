@@ -20,7 +20,7 @@ int main()
   {
      cout<<"What is the item?\n";
      cin>>input2;
-  
+
   if (numItems<5)
   {
      list[numItems]=input2;
@@ -33,6 +33,15 @@ int main()
 
 }
 }while(input!='q' && input!='Q');
+
+cout<<"==ITEMS TO BUY==\n";
+ for (int i=0; i < 5; i++)
+ { cout<< numItems+1;
+ if (list[numItems]!="")
+  {
+  cout<<" "<<list[numItems]<<endl;
+  }
+ } 
 
 
 return 0;

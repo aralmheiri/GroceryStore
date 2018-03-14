@@ -70,5 +70,5 @@ int main()
 
 {
          cout<< "No items to buy!"<<endl;
-      return 0;
- }
+}      return 0;
+}
